@@ -82,6 +82,7 @@ var vm = new Vue({
     </div>
     <div>
       <h1>Class与Style绑定</h1>
+      <HtmlClass></HtmlClass>
     </div>
   </div>
 </template>
@@ -92,6 +93,7 @@ import RawHtml from "./example/RawHtml.vue";
 import Attributes from "./example/Attributes.vue";
 import JsExpression from "./example/JavascriptExpression.vue";
 import computedProperty from "./example/computedProperty.vue";
+import HtmlClass from "./example/HtmlClass.vue"
 
 export default {
   name: "Grammer1",
@@ -100,7 +102,8 @@ export default {
     RawHtml,
     Attributes,
     JsExpression,
-    computedProperty
+    computedProperty,
+    HtmlClass
   }
 };
 </script>
