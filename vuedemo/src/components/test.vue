@@ -84,6 +84,10 @@ var vm = new Vue({
       <h1>Class与Style绑定</h1>
       <HtmlClass></HtmlClass>
     </div>
+    <div>
+      <h1>异步请求</h1>
+      <ajax-in-vue></ajax-in-vue>
+    </div>
   </div>
 </template>
 
@@ -94,6 +98,7 @@ import Attributes from "./example/Attributes.vue";
 import JsExpression from "./example/JavascriptExpression.vue";
 import computedProperty from "./example/computedProperty.vue";
 import HtmlClass from "./example/HtmlClass.vue"
+import ajaxInVue from "./example/ajaxInVue.vue"
 
 export default {
   name: "Grammer1",
@@ -103,7 +108,8 @@ export default {
     Attributes,
     JsExpression,
     computedProperty,
-    HtmlClass
+    HtmlClass,
+    ajaxInVue
   }
 };
 </script>

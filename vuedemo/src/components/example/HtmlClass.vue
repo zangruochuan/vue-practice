@@ -6,8 +6,8 @@
     <div :class="[activeClass,errorClass]">数组语法</div>
     <div :class="[isActive?activeClass:'',errorClass]">根据条件判断Class</div>
     <h2># 绑定内联样式</h2>
-    <div :style="{}"></div>
-    <div :></div>
+    <!-- <div :style="{}"></div>
+    <div :></div> -->
   </div>
 </template>
 
