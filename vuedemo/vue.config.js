@@ -7,7 +7,5 @@ module.exports = {
                 changeOrigin: true,
             }
         }
-        // proxy: 'https://www.v2ex.com/',
-        // host:'localhost'    
     }
 }
